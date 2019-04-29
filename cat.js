@@ -1,3 +1,5 @@
 function Cat(){
-	abc def ghtk
+	this.stomach = [];
 }
+
+module.exports = Cat;
