@@ -1,10 +1,10 @@
 function mouse (){
- mlmlmlml 
- sdfsdf
- sdfsdfs
- dfdf
- sdfsdfs
- sdfsdfsdf
- dsfdsf
- sdffd
+ this.name = name;
+ this.dead = false;
 }
+
+Mouse.prototype.die = function(){
+	this.dead= true;
+};
+
+module.exports = Mouse;
